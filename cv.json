@@ -50,14 +50,6 @@
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
   "certificates": [
     {
       "name": "Certificate",
@@ -66,26 +58,54 @@
       "url": "https://certificate.com"
     }
   ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }
-  ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "Java",
+      "level": "Advance",
+      "keywords": ["Functional", "Console"]
+    },
+    {
+      "name": "Spring-Boot",
+      "level": "Advance",
+      "keywords": ["Spring Boot", "RestFull"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advance"
+    },
+    {
+      "name": "SQLServer",
+      "level": "Advance"
+    },
+    {
+      "name": "Docker",
+      "level": "Advance"
+    },
+    {
+      "name": "HTML",
+      "level": "Advance"
+    },
+    {
+      "name": "CSS",
+      "level": "Advance"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advance"
+    },
+    {
+      "name": "Git",
+      "level": "Advance"
+    },
+    {
+      "name": "GitHub",
+      "level": "Advance"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": ""
     }
   ],
   "interests": [

@@ -29,24 +29,13 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Infosis",
+      "position": "Backend Java Developer",
+      "url": "https://infosis.tech",
+      "startDate": "2021-10-18",
+      "endDate": null,
+      "summary": "Mantenimiento de su producto principal Zeus Cloud ERP, estuve involucrado en la implementación de evolutivos como IRSA, CAEA y trabajando en su nuevo modulo de promociones",
       "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [

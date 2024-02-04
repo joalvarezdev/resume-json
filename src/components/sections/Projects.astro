@@ -1,7 +1,67 @@
 ---
 import Section from "../Section.astro";
+
+import { projects } from "@cv";
 ---
 
 <Section title="Projects">
 
+    <ul>
+        {
+            projects.map( ({url, description, techStack, title}) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <a 
+                                    href={url}
+                                    title={`Ver el proyecto ${title}`}
+                                >
+                                    <h3>{title}</h3>
+                                </a>
+                                <p>{description}</p>
+                            </header>
+                            <footer>
+                               {
+                                    techStack.map((tech) => (
+                                        <li>
+                                            <span>{tech}</span>
+                                        </li>
+                                    ))
+                               } 
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+
 </Section>
+
+<style>
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(200px, 1fr)
+        );
+        gap: 1rem;
+    }
+
+    footer {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    footer li {
+        border-radius: 6px;
+        background: #eee;
+        color: black;
+        font-size: .8rem;
+        font-weight: 500;
+        padding: .2rem .6rem;
+    }
+</style>

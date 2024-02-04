@@ -126,8 +126,9 @@
       "startDate": "2024-02-04",
       "endDate": null,
       "description": "Minimalist resume about me...",
-      "techStack": ["Astro", "JavaScript"],
-      "url": ""
+      "techStack": ["HTML", "CSS", "JavaScript", "Astro"],
+      "url": "https://github.com/joalvarezdev/resume-json",
+      "isActive": true
     },
     {
       "title": "Resume JSON",
@@ -143,7 +144,7 @@
       "endDate": null,
       "description": "Minimalist resume about me...",
       "techStack": ["Astro", "JavaScript"],
-      "url": ""
+      "url": "https://github.com/joalvarezdev/resume-json"
     }
   ]
 }

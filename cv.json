@@ -40,14 +40,11 @@
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "institution": "UTN MDP",
+      "url": "https://mdp.utn.edu.ar",
+      "studyType": "Tecnico Superior en Programación",
+      "startDate": "2019-04-18",
+      "endDate": "2021-11-29"
     }
   ],
   "certificates": [
@@ -61,13 +58,11 @@
   "skills": [
     {
       "name": "Java",
-      "level": "Advance",
-      "keywords": ["Functional", "Console"]
+      "level": "Advance"
     },
     {
       "name": "Spring-Boot",
-      "level": "Advance",
-      "keywords": ["Spring Boot", "RestFull"]
+      "level": "Advance"
     },
     {
       "name": "PostgreSQL",
